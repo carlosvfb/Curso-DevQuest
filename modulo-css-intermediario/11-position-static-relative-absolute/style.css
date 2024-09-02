@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+  }
+  
+  .elemento {
+    color: #fff;
+    font-size: 32px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .elemento-estatico {
+    position: static;/*elemento padrão, não se movimenta*/
+    background-color: crimson;
+  }
+  
+  .elemento-relativo {
+    position: relative;/*pode se movimentar é como se fosse uma margin que se movimenta*/
+    background-color: coral;
+    left: 100px;
+  }
+  
+  .elemento-absoluto {
+    position: absolute;/*sai do fluxo normal da tela e os elementos que estão abaixo dele tomam o lugar desse posicionamento que fica absoluto*/
+    background-color: darkcyan;
+    left: 165px;
+  }
+  
+  .elemento-relativo-com-filho {
+    position: relative;/*tag pai do absolut*/
+    width: 350px;
+    height: 350px;
+    background-color: gray;
+  }
+  
+  .elemento-absoluto-com-pai {
+    position: absolute;/*ele fica absoluto dentro da tag pai*/
+    width: 150px;
+    height: 150px;
+    top: 15px;
+    left: 50px;
+    background-color: darkcyan;
+  }

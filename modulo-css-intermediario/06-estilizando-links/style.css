@@ -1,0 +1,23 @@
+a {
+    cursor: pointer;
+    color: darkgreen;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  /*ja foi clicado o link acontece isso*/
+  a:visited {
+    color: dodgerblue; 
+  }
+
+  /* quando passa o mauser em cima aconttece isso */ 
+  a:hover {
+    background-color: darkgreen;
+    color: lightgreen;
+  }
+  
+  /*quando clica e segura acontece isso*/
+  a:active {
+    color: chartreuse;
+  }
+  

@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul {
+    /* list-style-image: url("./images/icone.png"); */
+    list-style: square inside url("./images/icone.png");
+    background-color: purple;
+  }
+  
+  ul li {
+    border: 1px solid black;
+    padding: 20px;
+  }
+  
+  ol {
+    list-style: decimal inside;
+    background-color: palevioletred;
+  }
+  
+  ol li {
+    border: 1px solid black;
+    padding: 20px;
+  } 

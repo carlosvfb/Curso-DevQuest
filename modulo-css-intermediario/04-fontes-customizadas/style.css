@@ -1,0 +1,14 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+p {
+  font-family: 'Silkscreen', monospace;
+  font-size: 24px;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+p {
+  font-family: 'Fira Code', monospace;
+  font-size: 24px;
+}

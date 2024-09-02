@@ -1,0 +1,37 @@
+/* seletor::pseudo-elemento {
+    propriedade: valor;
+} */
+
+/* first-letter: estiliza a primeira letra, porem não funciona em elementos inline, pode usar qualquer tipo de seletor.
+ */
+ .first-letter::first-letter {
+    color: coral;
+ }
+
+ /* first-line: que estiliza a primeira linha toda */
+.first-line::first-line {
+    color: coral;
+}
+
+/* estiliza cada marcador da lista tanto ul quanto ol */
+li::marker {
+    color: red;
+    font-size: 23px;
+}
+
+/*before: serve para adicionar um tipo de conteudo antes do elemento h2 utilizando content. 
+ */
+.before::before {
+    content: "";
+    background: url(logo.jpg) center center no-repeat;
+    display: inline-block;
+    width: 320px;
+    height: 180px;
+}
+
+/* after: mesma coisa porem o conteudo é depois do elemento h2. */
+
+.after::after {
+    content: url(logo.jpg);
+    
+}

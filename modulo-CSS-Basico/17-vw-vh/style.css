@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+}
+
+.primeira-secao {
+    background-color: red;
+}
+
+.segunda-secao {
+    background-color: black;
+}
+
+.terceira-secao {
+    background-color: blue;
+}

@@ -1,0 +1,33 @@
+/* seletor:pseudo-classe {
+    propriedade: valor;
+} */
+/* estiliza somente o primeiro paragrafo */
+p:first-child {
+    color: aquamarine;
+}
+
+/* estiliza somente o ultimo paragrafo */
+p:last-child {
+    color: blueviolet;
+}
+
+/* estiliza todos que não tem a classe padrao */
+p:not(.padrao) {
+    color: yellow;
+}
+
+/* odd: estiliza todos os impares da lista. even: estiliza todos os pares da lista. um numero + "n": vamos dizer o 3 ele vai estilizar o terceiro e ir de tres em tres. somente o numero: estiliza somente o item do numero escolhido.  */
+/* esse ultimo representa a partir do segundo até o quinto. */
+li:nth-child(n+2):nth-child(-n+5) {
+    color: red;
+}
+
+/* estiliza do fim ao inicio */
+li:nth-last-child(1) {
+    color: green;
+}
+
+/* estiliza filho unico */
+p:only-child {
+    color: red;
+}
